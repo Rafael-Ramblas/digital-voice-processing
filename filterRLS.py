@@ -26,6 +26,6 @@ ax.plot(time, filteredSamples, lw=1, alpha=.7,
         label="Filtrado com alfa " + str(alfa))
 leg = ax.legend(loc='upper right')
 ax.set_ylim(-1, 1)
-# plt.show()
+plt.show()
 
-write('rls-099.wav', frameRate, np.array(filteredSamples))
+# write('rls-099.wav', frameRate, np.array(filteredSamples))
